@@ -1,0 +1,35 @@
+.container-table {
+    background-color: #fafafa;
+    padding: 1rem 2rem;
+}
+
+.table {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table h2 , .table h3 {
+    margin: 0;
+}
+
+.table-title {
+    padding-bottom: 2rem;
+}
+
+.table-content {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+tr , td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}

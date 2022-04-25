@@ -1,0 +1,32 @@
+.container-hero {
+    background-color: #fafafa;
+    padding: 1rem 2rem;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.hero button {
+    padding:.6rem 1.2rem;
+    background-color: #111;
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 2rem 0;
+    }
+}
+    

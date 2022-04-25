@@ -1,0 +1,47 @@
+.container-indonesia {
+    background-color: #fafafa;
+    padding: 1rem 2rem;
+}
+
+.indonesia {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.indonesia-title {
+    text-align: center;
+}
+
+.indonesia-title h2, .indonesia-title h3 {
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem; 
+}
+
+.card span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .indonesia-card {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card {
+        width: 100%;
+        margin: 2rem;
+    }
+}
+    
